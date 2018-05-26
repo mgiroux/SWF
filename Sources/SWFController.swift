@@ -34,7 +34,7 @@ open class SWFController: SWFInitializable
     }
     
     public required init() {}
-    public func routes() {}
+    open func routes() {}
     
     public func server() -> SWFServer
     {
