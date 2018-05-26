@@ -1,7 +1,0 @@
-version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
-options: "c08166cb7519d4a45deb75c55304663c"
-build_time: [1527346237, 204624000]
-inputs:
-  "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-Thread.git-6541237758607105655/Sources/Promise.swift": [1527346225, 0]
-  "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-Thread.git-6541237758607105655/Sources/ThreadQueue.swift": [1527346225, 0]
-  "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-Thread.git-6541237758607105655/Sources/Threading.swift": [1527346225, 0]

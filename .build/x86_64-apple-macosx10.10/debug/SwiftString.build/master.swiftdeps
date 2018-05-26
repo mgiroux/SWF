@@ -1,7 +1,0 @@
-version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
-options: "994c09ae90b22e33ab6399d2d918f63b"
-build_time: [1527346237, 288567000]
-inputs:
-  "/Users/marc/Dev/SwiftFramework/.build/checkouts/SwiftString.git-1364241159374428423/Sources/StringExtensions.swift": [1527346225, 0]
-  "/Users/marc/Dev/SwiftFramework/.build/checkouts/SwiftString.git-1364241159374428423/Sources/StringHTML.swift": [1527346225, 0]
-  "/Users/marc/Dev/SwiftFramework/.build/checkouts/SwiftString.git-1364241159374428423/Sources/StringURL.swift": [1527346225, 0]

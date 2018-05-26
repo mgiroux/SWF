@@ -1,5 +1,0 @@
-version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
-options: "1c8b69b5d814be1da2fbb1d7fb723d29"
-build_time: [1527346237, 154306000]
-inputs:
-  "/Users/marc/Dev/SwiftFramework/.build/checkouts/PathKit.git--1865447967743163058/Sources/PathKit.swift": [1527346226, 0]

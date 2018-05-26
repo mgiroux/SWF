@@ -1,9 +1,0 @@
-version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
-options: "7d76a8173f817af2f7c6d05ba4b20192"
-build_time: [1527346253, 932956000]
-inputs:
-  "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-CURL.git-8858624468322681619/Sources/CURLRequest.swift": [1527346224, 0]
-  "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-CURL.git-8858624468322681619/Sources/CURLRequestOptions.swift": [1527346224, 0]
-  "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-CURL.git-8858624468322681619/Sources/CURLResponse.swift": [1527346224, 0]
-  "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-CURL.git-8858624468322681619/Sources/CURLResponseInfos.swift": [1527346224, 0]
-  "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-CURL.git-8858624468322681619/Sources/cURL.swift": [1527346224, 0]
