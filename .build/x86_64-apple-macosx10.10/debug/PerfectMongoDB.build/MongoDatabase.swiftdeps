@@ -1,0 +1,235 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MongoDatabase"
+provides-nominal:
+- "14PerfectMongoDB0B8DatabaseC"
+provides-member:
+- ["14PerfectMongoDB0B8DatabaseC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "??"
+- "AssignmentPrecedence"
+- "BSON"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "MongoClient"
+- "MongoCollection"
+- "MongoDatabase"
+- "MongoResult"
+- "OpaquePointer"
+- "String"
+- !private "StringLiteralType"
+- !private "bson_error_t"
+- !private "bson_strfreev"
+- !private "mongoc_client_get_database"
+- !private "mongoc_database_create_collection"
+- !private "mongoc_database_destroy"
+- !private "mongoc_database_drop"
+- !private "mongoc_database_get_collection"
+- !private "mongoc_database_get_collection_names"
+- !private "mongoc_database_get_name"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "init"]
+- !private ["14PerfectMongoDB4BSONC", "doc"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "pointee"]
+- !private ["s7CVarArgP", "successor"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "doc"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "pointee"]
+- !private ["s10ComparableP", "successor"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "pointee"]
+- !private ["s28CustomDebugStringConvertibleP", "successor"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "pointee"]
+- !private ["s29CustomPlaygroundQuickLookableP", "successor"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "pointee"]
+- !private ["s17CustomReflectableP", "successor"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "doc"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "doc"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "pointee"]
+- !private ["s9EquatableP", "successor"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "pointee"]
+- !private ["s8HashableP", "successor"]
+- !private ["10PerfectLib15JSONConvertibleP", "_getBuiltinLogicValue"]
+- !private ["10PerfectLib15JSONConvertibleP", "append"]
+- !private ["10PerfectLib15JSONConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["14PerfectMongoDB0B6ClientC", "ptr"]
+- !private ["14PerfectMongoDB0B10CollectionC", "init"]
+- ["14PerfectMongoDB0B8DatabaseC", "BSON"]
+- ["14PerfectMongoDB0B8DatabaseC", "MongoClient"]
+- ["14PerfectMongoDB0B8DatabaseC", "MongoCollection"]
+- ["14PerfectMongoDB0B8DatabaseC", "MongoResult"]
+- ["14PerfectMongoDB0B8DatabaseC", "OpaquePointer"]
+- ["14PerfectMongoDB0B8DatabaseC", "Result"]
+- ["14PerfectMongoDB0B8DatabaseC", "String"]
+- !private ["14PerfectMongoDB0B8DatabaseC", "bson_error_t"]
+- !private ["14PerfectMongoDB0B8DatabaseC", "bson_strfreev"]
+- ["14PerfectMongoDB0B8DatabaseC", "close"]
+- ["14PerfectMongoDB0B8DatabaseC", "collectionNames"]
+- ["14PerfectMongoDB0B8DatabaseC", "createCollection"]
+- ["14PerfectMongoDB0B8DatabaseC", "deinit"]
+- ["14PerfectMongoDB0B8DatabaseC", "drop"]
+- ["14PerfectMongoDB0B8DatabaseC", "getCollection"]
+- ["14PerfectMongoDB0B8DatabaseC", "init"]
+- !private ["14PerfectMongoDB0B8DatabaseC", "mongoc_client_get_database"]
+- !private ["14PerfectMongoDB0B8DatabaseC", "mongoc_database_create_collection"]
+- !private ["14PerfectMongoDB0B8DatabaseC", "mongoc_database_destroy"]
+- !private ["14PerfectMongoDB0B8DatabaseC", "mongoc_database_drop"]
+- !private ["14PerfectMongoDB0B8DatabaseC", "mongoc_database_get_collection"]
+- !private ["14PerfectMongoDB0B8DatabaseC", "mongoc_database_get_collection_names"]
+- !private ["14PerfectMongoDB0B8DatabaseC", "mongoc_database_get_name"]
+- ["14PerfectMongoDB0B8DatabaseC", "name"]
+- ["14PerfectMongoDB0B8DatabaseC", "ptr"]
+- !private ["14PerfectMongoDB0B6ResultO", "error"]
+- !private ["14PerfectMongoDB0B6ResultO", "fromError"]
+- !private ["14PerfectMongoDB0B6ResultO", "replyCollection"]
+- !private ["14PerfectMongoDB0B6ResultO", "success"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "init"]
+- ["s13OpaquePointerV", "init"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "init"]
+- !private ["s10StrideableP", "pointee"]
+- !private ["s10StrideableP", "successor"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["Sp", "pointee"]
+- !private ["Sp", "successor"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s8_PointerP", "pointee"]
+- !private ["s8_PointerP", "successor"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["SC13_bson_error_tV", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "14PerfectMongoDB4BSONC"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "10PerfectLib15JSONConvertibleP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "14PerfectMongoDB0B6ClientC"
+- !private "14PerfectMongoDB0B10CollectionC"
+- "14PerfectMongoDB0B8DatabaseC"
+- !private "14PerfectMongoDB0B6ResultO"
+- !private "s17MutableCollectionP"
+- "s13OpaquePointerV"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "Sp"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- !private "s16_SwiftStringViewP"
+- !private "SC13_bson_error_tV"
+depends-dynamic-lookup:
+depends-external:
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/os.apinotesc"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/PerfectLib.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/os.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-CMongo.git--7200463005611678352/module.modulemap"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-CBSON.git-8939878273781718947/module.modulemap"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/usr/include/xpc/XPC.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "ce74c3f441a027fa7d90c5826c54b4c6"

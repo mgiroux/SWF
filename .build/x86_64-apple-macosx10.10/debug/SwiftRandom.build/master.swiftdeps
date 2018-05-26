@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "0533b771c80bde7a6c1e4bf4539bf136"
+build_time: [1527346237, 213584000]
+inputs:
+  "/Users/marc/Dev/SwiftFramework/.build/checkouts/SwiftRandom.git--6412955993590123727/Sources/SwiftRandom/Random.swift": [1527346225, 0]
+  "/Users/marc/Dev/SwiftFramework/.build/checkouts/SwiftRandom.git--6412955993590123727/Sources/SwiftRandom/Randoms.swift": [1527346225, 0]
+  "/Users/marc/Dev/SwiftFramework/.build/checkouts/SwiftRandom.git--6412955993590123727/Sources/SwiftRandom/URandom.swift": [1527346225, 0]

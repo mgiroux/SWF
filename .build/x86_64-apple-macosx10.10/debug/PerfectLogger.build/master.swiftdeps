@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "670c2d5d1eaea06fe2ee91f44a35e766"
+build_time: [1527346255, 390158000]
+inputs:
+  "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-Logger.git--429101405906730625/Sources/PerfectLogger/FileLogger.swift": [1527346223, 0]
+  "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-Logger.git--429101405906730625/Sources/PerfectLogger/RemoteLogger.swift": [1527346223, 0]

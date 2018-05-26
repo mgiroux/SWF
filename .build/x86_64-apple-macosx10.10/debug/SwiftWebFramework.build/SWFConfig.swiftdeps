@@ -1,0 +1,325 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SWFConfig"
+- "SWFEnvironmentConfig"
+- "SWFDatabaseConfig"
+- "SWFSecurityConfig"
+provides-nominal:
+- "17SwiftWebFramework9SWFConfigV"
+- "17SwiftWebFramework20SWFEnvironmentConfigV"
+- "17SwiftWebFramework17SWFDatabaseConfigV"
+- "17SwiftWebFramework17SWFSecurityConfigV"
+provides-member:
+- ["17SwiftWebFramework9SWFConfigV", ""]
+- ["17SwiftWebFramework20SWFEnvironmentConfigV", ""]
+- ["17SwiftWebFramework17SWFDatabaseConfigV", ""]
+- ["17SwiftWebFramework17SWFSecurityConfigV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "BooleanLiteralType"
+- "Codable"
+- "SWFConfig"
+- "SWFDatabaseConfig"
+- "SWFEnvironmentConfig"
+- "SWFSecurityConfig"
+- "StringLiteralType"
+- !private "~="
+depends-member:
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "init"]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["s10CollectionP", "init"]
+- ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- ["s9DecodableP", "SWFDatabaseConfig"]
+- ["s9DecodableP", "SWFEnvironmentConfig"]
+- ["s9DecodableP", "SWFSecurityConfig"]
+- ["s9DecodableP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "bind"]
+- !private ["s9DecodableP", "database"]
+- !private ["s9DecodableP", "development"]
+- ["s9DecodableP", "encode"]
+- !private ["s9DecodableP", "encryptionKey"]
+- !private ["s9DecodableP", "environment"]
+- !private ["s9DecodableP", "host"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "name"]
+- !private ["s9DecodableP", "password"]
+- !private ["s9DecodableP", "port"]
+- !private ["s9DecodableP", "production"]
+- !private ["s9DecodableP", "salt"]
+- !private ["s9DecodableP", "security"]
+- !private ["s9DecodableP", "ssl"]
+- !private ["s9DecodableP", "useCompression"]
+- !private ["s9DecodableP", "username"]
+- !private ["s7DecoderP", "container"]
+- ["s9EncodableP", "SWFDatabaseConfig"]
+- ["s9EncodableP", "SWFEnvironmentConfig"]
+- ["s9EncodableP", "SWFSecurityConfig"]
+- ["s9EncodableP", ""]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "bind"]
+- !private ["s9EncodableP", "database"]
+- !private ["s9EncodableP", "development"]
+- ["s9EncodableP", "encode"]
+- !private ["s9EncodableP", "encryptionKey"]
+- !private ["s9EncodableP", "environment"]
+- !private ["s9EncodableP", "host"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "name"]
+- !private ["s9EncodableP", "password"]
+- !private ["s9EncodableP", "port"]
+- !private ["s9EncodableP", "production"]
+- !private ["s9EncodableP", "salt"]
+- !private ["s9EncodableP", "security"]
+- !private ["s9EncodableP", "ssl"]
+- !private ["s9EncodableP", "useCompression"]
+- !private ["s9EncodableP", "username"]
+- !private ["s7EncoderP", "container"]
+- !private ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "debugDescription"]
+- ["s9EquatableP", "description"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "intValue"]
+- ["s9EquatableP", "stringValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "debugDescription"]
+- ["s8HashableP", "description"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "intValue"]
+- ["s8HashableP", "stringValue"]
+- !private ["10PerfectLib15JSONConvertibleP", "_getBuiltinLogicValue"]
+- ["10PerfectLib15JSONConvertibleP", "init"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["17SwiftWebFramework9SWFConfigV", "CodingKeys"]
+- ["17SwiftWebFramework9SWFConfigV", "SWFEnvironmentConfig"]
+- ["17SwiftWebFramework9SWFConfigV", "deinit"]
+- ["17SwiftWebFramework9SWFConfigV", "development"]
+- ["17SwiftWebFramework9SWFConfigV", "encode"]
+- ["17SwiftWebFramework9SWFConfigV", "env"]
+- ["17SwiftWebFramework9SWFConfigV", "environment"]
+- ["17SwiftWebFramework9SWFConfigV", "init"]
+- ["17SwiftWebFramework9SWFConfigV", "production"]
+- !private ["17SwiftWebFramework17SWFDatabaseConfigV", "CodingKeys"]
+- ["17SwiftWebFramework17SWFDatabaseConfigV", "database"]
+- ["17SwiftWebFramework17SWFDatabaseConfigV", "deinit"]
+- ["17SwiftWebFramework17SWFDatabaseConfigV", "encode"]
+- ["17SwiftWebFramework17SWFDatabaseConfigV", "host"]
+- ["17SwiftWebFramework17SWFDatabaseConfigV", "init"]
+- ["17SwiftWebFramework17SWFDatabaseConfigV", "password"]
+- ["17SwiftWebFramework17SWFDatabaseConfigV", "port"]
+- ["17SwiftWebFramework17SWFDatabaseConfigV", "ssl"]
+- ["17SwiftWebFramework17SWFDatabaseConfigV", "username"]
+- !private ["17SwiftWebFramework20SWFEnvironmentConfigV", "CodingKeys"]
+- ["17SwiftWebFramework20SWFEnvironmentConfigV", "SWFDatabaseConfig"]
+- ["17SwiftWebFramework20SWFEnvironmentConfigV", "SWFSecurityConfig"]
+- ["17SwiftWebFramework20SWFEnvironmentConfigV", "bind"]
+- ["17SwiftWebFramework20SWFEnvironmentConfigV", "database"]
+- ["17SwiftWebFramework20SWFEnvironmentConfigV", "deinit"]
+- ["17SwiftWebFramework20SWFEnvironmentConfigV", "encode"]
+- ["17SwiftWebFramework20SWFEnvironmentConfigV", "init"]
+- ["17SwiftWebFramework20SWFEnvironmentConfigV", "name"]
+- ["17SwiftWebFramework20SWFEnvironmentConfigV", "port"]
+- ["17SwiftWebFramework20SWFEnvironmentConfigV", "security"]
+- ["17SwiftWebFramework20SWFEnvironmentConfigV", "useCompression"]
+- !private ["17SwiftWebFramework17SWFSecurityConfigV", "CodingKeys"]
+- ["17SwiftWebFramework17SWFSecurityConfigV", "deinit"]
+- ["17SwiftWebFramework17SWFSecurityConfigV", "encode"]
+- ["17SwiftWebFramework17SWFSecurityConfigV", "encryptionKey"]
+- ["17SwiftWebFramework17SWFSecurityConfigV", "init"]
+- ["17SwiftWebFramework17SWFSecurityConfigV", "salt"]
+- ["s8SequenceP", "init"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- "s7CVarArgP"
+- "s9CodingKeyP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- !private "s7DecoderP"
+- "s9EncodableP"
+- !private "s7EncoderP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "10PerfectLib15JSONConvertibleP"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "s26RangeReplaceableCollectionP"
+- "17SwiftWebFramework9SWFConfigV"
+- "17SwiftWebFramework17SWFDatabaseConfigV"
+- "17SwiftWebFramework20SWFEnvironmentConfigV"
+- "17SwiftWebFramework17SWFSecurityConfigV"
+- "s8SequenceP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/os.apinotesc"
+- "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/PerfectMongoDB.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/PerfectCURL.swiftmodule"
+- "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/StORM.swiftmodule"
+- "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/MongoDBStORM.swiftmodule"
+- "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.swiftmodule"
+- "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/PerfectLib.swiftmodule"
+- "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/PerfectThread.swiftmodule"
+- "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/SwiftString.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/Stencil.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/PerfectCrypto.swiftmodule"
+- "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/PerfectLogger.swiftmodule"
+- "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/os.swiftmodule"
+- "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/PerfectNet.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/PathKit.swiftmodule"
+- "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../asn1.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../tls1.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dtls1.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl2.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pem2.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../e_os2.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl23.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl3.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pkcs7.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../x509.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../sha.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dsa.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ecdsa.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../rsa.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include/../zlib.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include/czlib.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../obj_mac.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../hmac.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ec.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../rand.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pqueue.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../opensslconf.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include/../zconf.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dh.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ecdh.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../lhash.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../stack.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../safestack.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include/../zutil.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../kssl.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/openssl.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pem.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../bn.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../bio.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../crypto.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../comp.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../srtp.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../evp.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ossl_typ.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../buffer.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectCHTTPParser/include/http_parser.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../err.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include/../inftrees.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../symhacks.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../cms.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../objects.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../opensslv.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../x509_vfy.h"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-CMongo.git--7200463005611678352/module.modulemap"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-libcurl.git--6269865819486613555/module.modulemap"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-CBSON.git-8939878273781718947/module.modulemap"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/module.modulemap"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include/module.modulemap"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectCHTTPParser/include/module.modulemap"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/usr/include/xpc/XPC.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "4187c093059ab9a843e4f28362f9db49"

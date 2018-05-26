@@ -1,0 +1,41 @@
+{
+  "": {
+    "swift-dependencies": "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/master.swiftdeps"
+  },
+  "/Users/marc/Dev/SwiftFramework/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/Duration.swift": {
+    "dependencies": "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Duration.d",
+    "object": "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Duration.swift.o",
+    "swiftmodule": "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Duration~partial.swiftmodule",
+    "swift-dependencies": "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Duration.swiftdeps"
+  },
+  "/Users/marc/Dev/SwiftFramework/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/Extensions.swift": {
+    "dependencies": "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Extensions.d",
+    "object": "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Extensions.swift.o",
+    "swiftmodule": "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Extensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Extensions.swiftdeps"
+  },
+  "/Users/marc/Dev/SwiftFramework/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/Moment.swift": {
+    "dependencies": "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Moment.d",
+    "object": "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Moment.swift.o",
+    "swiftmodule": "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Moment~partial.swiftmodule",
+    "swift-dependencies": "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Moment.swiftdeps"
+  },
+  "/Users/marc/Dev/SwiftFramework/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/MomentFromNow.swift": {
+    "dependencies": "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/MomentFromNow.d",
+    "object": "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/MomentFromNow.swift.o",
+    "swiftmodule": "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/MomentFromNow~partial.swiftmodule",
+    "swift-dependencies": "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/MomentFromNow.swiftdeps"
+  },
+  "/Users/marc/Dev/SwiftFramework/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/Operators.swift": {
+    "dependencies": "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Operators.d",
+    "object": "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Operators.swift.o",
+    "swiftmodule": "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Operators~partial.swiftmodule",
+    "swift-dependencies": "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Operators.swiftdeps"
+  },
+  "/Users/marc/Dev/SwiftFramework/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/TimeUnit.swift": {
+    "dependencies": "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/TimeUnit.d",
+    "object": "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/TimeUnit.swift.o",
+    "swiftmodule": "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/TimeUnit~partial.swiftmodule",
+    "swift-dependencies": "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/TimeUnit.swiftdeps"
+  }
+}

@@ -1,0 +1,304 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MongoCursor"
+provides-nominal:
+- "14PerfectMongoDB0B6CursorC"
+provides-member:
+- ["14PerfectMongoDB0B6CursorC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- "AssignmentPrecedence"
+- "BSON"
+- "CastingPrecedence"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "IteratorProtocol"
+- "MongoCursor"
+- !private "NoDestroyBSON"
+- "OpaquePointer"
+- "Sequence"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- !private "UnsafeMutablePointer"
+- !private "UnsafePointer"
+- !private "bson_t"
+- !private "mongoc_cursor_destroy"
+- !private "mongoc_cursor_next"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "init"]
+- !private ["Sa", "joined"]
+- !private ["14PerfectMongoDB4BSONC", "asString"]
+- !private ["14PerfectMongoDB4BSONC", "init"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "joined"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "joined"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "joined"]
+- !private ["s10ComparableP", "asString"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "joined"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "joined"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "asString"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "joined"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "joined"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "joined"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "asString"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "joined"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "joined"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "init"]
+- ["s16IteratorProtocolP", "Element"]
+- ["s16IteratorProtocolP", "Iterator"]
+- !private ["s16IteratorProtocolP", "NoDestroyBSON"]
+- ["s16IteratorProtocolP", "OpaquePointer"]
+- !private ["s16IteratorProtocolP", "String"]
+- ["s16IteratorProtocolP", "SubSequence"]
+- !private ["s16IteratorProtocolP", "UnsafeMutablePointer"]
+- !private ["s16IteratorProtocolP", "UnsafePointer"]
+- ["s16IteratorProtocolP", ""]
+- ["s16IteratorProtocolP", "_Default_Element"]
+- ["s16IteratorProtocolP", "_Default_Iterator"]
+- ["s16IteratorProtocolP", "_Default_SubSequence"]
+- ["s16IteratorProtocolP", "_copyContents"]
+- ["s16IteratorProtocolP", "_copyToContiguousArray"]
+- ["s16IteratorProtocolP", "_customContainsEquatableElement"]
+- ["s16IteratorProtocolP", "_preprocessingPass"]
+- !private ["s16IteratorProtocolP", "close"]
+- ["s16IteratorProtocolP", "drop"]
+- ["s16IteratorProtocolP", "dropFirst"]
+- ["s16IteratorProtocolP", "dropLast"]
+- ["s16IteratorProtocolP", "filter"]
+- ["s16IteratorProtocolP", "forEach"]
+- ["s16IteratorProtocolP", "makeIterator"]
+- ["s16IteratorProtocolP", "map"]
+- !private ["s16IteratorProtocolP", "mongoc_cursor_destroy"]
+- !private ["s16IteratorProtocolP", "mongoc_cursor_next"]
+- ["s16IteratorProtocolP", "next"]
+- ["s16IteratorProtocolP", "prefix"]
+- !private ["s16IteratorProtocolP", "ptr"]
+- ["s16IteratorProtocolP", "split"]
+- ["s16IteratorProtocolP", "suffix"]
+- ["s16IteratorProtocolP", "underestimatedCount"]
+- !private ["10PerfectLib15JSONConvertibleP", "_getBuiltinLogicValue"]
+- !private ["10PerfectLib15JSONConvertibleP", "append"]
+- !private ["10PerfectLib15JSONConvertibleP", "init"]
+- !private ["10PerfectLib15JSONConvertibleP", "joined"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- ["14PerfectMongoDB0B6CursorC", "BSON"]
+- ["14PerfectMongoDB0B6CursorC", "Element"]
+- ["14PerfectMongoDB0B6CursorC", "Iterator"]
+- !private ["14PerfectMongoDB0B6CursorC", "NoDestroyBSON"]
+- ["14PerfectMongoDB0B6CursorC", "OpaquePointer"]
+- ["14PerfectMongoDB0B6CursorC", "String"]
+- ["14PerfectMongoDB0B6CursorC", "SubSequence"]
+- !private ["14PerfectMongoDB0B6CursorC", "UnsafeMutablePointer"]
+- !private ["14PerfectMongoDB0B6CursorC", "UnsafePointer"]
+- ["14PerfectMongoDB0B6CursorC", "_Default_Element"]
+- ["14PerfectMongoDB0B6CursorC", "_Default_Iterator"]
+- ["14PerfectMongoDB0B6CursorC", "_Default_SubSequence"]
+- ["14PerfectMongoDB0B6CursorC", "_copyContents"]
+- ["14PerfectMongoDB0B6CursorC", "_copyToContiguousArray"]
+- ["14PerfectMongoDB0B6CursorC", "_customContainsEquatableElement"]
+- ["14PerfectMongoDB0B6CursorC", "_preprocessingPass"]
+- !private ["14PerfectMongoDB0B6CursorC", "bson_t"]
+- ["14PerfectMongoDB0B6CursorC", "close"]
+- ["14PerfectMongoDB0B6CursorC", "deinit"]
+- ["14PerfectMongoDB0B6CursorC", "drop"]
+- ["14PerfectMongoDB0B6CursorC", "dropFirst"]
+- ["14PerfectMongoDB0B6CursorC", "dropLast"]
+- ["14PerfectMongoDB0B6CursorC", "filter"]
+- ["14PerfectMongoDB0B6CursorC", "forEach"]
+- ["14PerfectMongoDB0B6CursorC", "init"]
+- ["14PerfectMongoDB0B6CursorC", "jsonString"]
+- ["14PerfectMongoDB0B6CursorC", "makeIterator"]
+- ["14PerfectMongoDB0B6CursorC", "map"]
+- !private ["14PerfectMongoDB0B6CursorC", "mongoc_cursor_destroy"]
+- !private ["14PerfectMongoDB0B6CursorC", "mongoc_cursor_next"]
+- ["14PerfectMongoDB0B6CursorC", "next"]
+- ["14PerfectMongoDB0B6CursorC", "prefix"]
+- ["14PerfectMongoDB0B6CursorC", "ptr"]
+- ["14PerfectMongoDB0B6CursorC", "split"]
+- ["14PerfectMongoDB0B6CursorC", "suffix"]
+- ["14PerfectMongoDB0B6CursorC", "underestimatedCount"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "joined"]
+- !private ["14PerfectMongoDB13NoDestroyBSONC", "init"]
+- ["s13OpaquePointerV", "init"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "joined"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "joined"]
+- ["s8SequenceP", "Element"]
+- ["s8SequenceP", "Iterator"]
+- !private ["s8SequenceP", "NoDestroyBSON"]
+- ["s8SequenceP", "OpaquePointer"]
+- !private ["s8SequenceP", "String"]
+- ["s8SequenceP", "SubSequence"]
+- !private ["s8SequenceP", "UnsafeMutablePointer"]
+- !private ["s8SequenceP", "UnsafePointer"]
+- ["s8SequenceP", ""]
+- ["s8SequenceP", "_Default_Element"]
+- ["s8SequenceP", "_Default_Iterator"]
+- ["s8SequenceP", "_Default_SubSequence"]
+- ["s8SequenceP", "_copyContents"]
+- ["s8SequenceP", "_copyToContiguousArray"]
+- ["s8SequenceP", "_customContainsEquatableElement"]
+- ["s8SequenceP", "_preprocessingPass"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "close"]
+- ["s8SequenceP", "drop"]
+- ["s8SequenceP", "dropFirst"]
+- ["s8SequenceP", "dropLast"]
+- ["s8SequenceP", "filter"]
+- ["s8SequenceP", "forEach"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "joined"]
+- ["s8SequenceP", "makeIterator"]
+- ["s8SequenceP", "map"]
+- !private ["s8SequenceP", "mongoc_cursor_destroy"]
+- !private ["s8SequenceP", "mongoc_cursor_next"]
+- ["s8SequenceP", "next"]
+- ["s8SequenceP", "prefix"]
+- !private ["s8SequenceP", "ptr"]
+- ["s8SequenceP", "split"]
+- ["s8SequenceP", "suffix"]
+- ["s8SequenceP", "underestimatedCount"]
+- !private ["s10StrideableP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["Sp", "init"]
+- !private ["SP", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "joined"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "joined"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "joined"]
+- !private ["s8_PointerP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "14PerfectMongoDB4BSONC"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "s16IteratorProtocolP"
+- !private "10PerfectLib15JSONConvertibleP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "14PerfectMongoDB0B6CursorC"
+- !private "s17MutableCollectionP"
+- !private "14PerfectMongoDB13NoDestroyBSONC"
+- "s13OpaquePointerV"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- "s8SequenceP"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "Sp"
+- !private "SP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/os.apinotesc"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/PerfectLib.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/os.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-CMongo.git--7200463005611678352/module.modulemap"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-CBSON.git-8939878273781718947/module.modulemap"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/usr/include/xpc/XPC.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "50da7fa186a6d6ca0e89c712ecdd866c"

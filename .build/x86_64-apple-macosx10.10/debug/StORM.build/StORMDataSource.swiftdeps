@@ -1,0 +1,62 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "StORMDataSource"
+provides-nominal:
+- "5StORM0A13ORMDataSourceO"
+provides-member:
+- ["5StORM0A13ORMDataSourceO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "StORMDataSource"
+depends-member:
+- !private ["s9EquatableP", "Unknown"]
+- ["s9EquatableP", ""]
+- ["s9EquatableP", "hashValue"]
+- !private ["s8HashableP", "Unknown"]
+- ["s8HashableP", ""]
+- ["s8HashableP", "hashValue"]
+- ["5StORM0A13ORMDataSourceO", "CouchDB"]
+- ["5StORM0A13ORMDataSourceO", "FileMaker"]
+- ["5StORM0A13ORMDataSourceO", "MongoDB"]
+- ["5StORM0A13ORMDataSourceO", "MySQL"]
+- ["5StORM0A13ORMDataSourceO", "Postgres"]
+- ["5StORM0A13ORMDataSourceO", "Redis"]
+- ["5StORM0A13ORMDataSourceO", "SQLite"]
+- ["5StORM0A13ORMDataSourceO", "Unknown"]
+- ["5StORM0A13ORMDataSourceO", "__derived_enum_equals"]
+- ["5StORM0A13ORMDataSourceO", "deinit"]
+- ["5StORM0A13ORMDataSourceO", "hashValue"]
+- ["5StORM0A13ORMDataSourceO", "init"]
+depends-nominal:
+- "s9EquatableP"
+- "s8HashableP"
+- "5StORM0A13ORMDataSourceO"
+depends-dynamic-lookup:
+depends-external:
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/os.apinotesc"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/PerfectLib.swiftmodule"
+- "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/SwiftString.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/os.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/usr/include/xpc/XPC.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "63d60b9574daf3a59a749be3fc360941"

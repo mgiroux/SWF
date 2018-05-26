@@ -1,0 +1,855 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MongoInsertFlag"
+- "MongoUpdateFlag"
+- "MongoQueryFlag"
+- "MongoRemoveFlag"
+- "MongoIndexOptionsGeo"
+- "MongoIndexOptions"
+- "MongoIndexStorageOptionType"
+- "MongoCollection"
+provides-nominal:
+- "14PerfectMongoDB0B10InsertFlagO"
+- "14PerfectMongoDB0B10UpdateFlagO"
+- "14PerfectMongoDB0B9QueryFlagV"
+- "14PerfectMongoDB0B10RemoveFlagO"
+- "14PerfectMongoDB0B15IndexOptionsGeoC"
+- "14PerfectMongoDB0B12IndexOptionsC"
+- "14PerfectMongoDB0B22IndexStorageOptionTypeO"
+- "14PerfectMongoDB0B10CollectionC"
+provides-member:
+- ["14PerfectMongoDB0B10InsertFlagO", ""]
+- ["14PerfectMongoDB0B10UpdateFlagO", ""]
+- ["14PerfectMongoDB0B9QueryFlagV", ""]
+- ["14PerfectMongoDB0B10RemoveFlagO", ""]
+- ["14PerfectMongoDB0B15IndexOptionsGeoC", ""]
+- ["14PerfectMongoDB0B12IndexOptionsC", ""]
+- ["14PerfectMongoDB0B22IndexStorageOptionTypeO", ""]
+- ["14PerfectMongoDB0B10CollectionC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "BSON"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Double"
+- "FloatLiteralType"
+- "Int"
+- "Int32"
+- !private "Int64"
+- !private "Int8"
+- "IntegerLiteralType"
+- !private "MONGOC_INDEX_STORAGE_OPT_MMAPV1"
+- !private "MONGOC_INDEX_STORAGE_OPT_WIREDTIGER"
+- !private "MONGOC_INSERT_CONTINUE_ON_ERROR"
+- !private "MONGOC_INSERT_NONE"
+- !private "MONGOC_INSERT_NO_VALIDATE"
+- "MONGOC_QUERY_AWAIT_DATA"
+- "MONGOC_QUERY_EXHAUST"
+- "MONGOC_QUERY_NONE"
+- "MONGOC_QUERY_NO_CURSOR_TIMEOUT"
+- "MONGOC_QUERY_OPLOG_REPLAY"
+- "MONGOC_QUERY_PARTIAL"
+- "MONGOC_QUERY_SLAVE_OK"
+- "MONGOC_QUERY_TAILABLE_CURSOR"
+- !private "MONGOC_REMOVE_NONE"
+- !private "MONGOC_REMOVE_SINGLE_REMOVE"
+- !private "MONGOC_UPDATE_MULTI_UPDATE"
+- !private "MONGOC_UPDATE_NONE"
+- !private "MONGOC_UPDATE_NO_VALIDATE"
+- !private "MONGOC_UPDATE_UPSERT"
+- "MongoClient"
+- "MongoCollection"
+- "MongoCursor"
+- "MongoIndexOptions"
+- "MongoIndexOptionsGeo"
+- "MongoIndexStorageOptionType"
+- "MongoInsertFlag"
+- "MongoQueryFlag"
+- "MongoRemoveFlag"
+- "MongoResult"
+- "MongoUpdateFlag"
+- !private "NoDestroyBSON"
+- "OpaquePointer"
+- "OptionSet"
+- "String"
+- !private "StringLiteralType"
+- "UInt32"
+- "UInt8"
+- "UnsafeMutablePointer"
+- !private "UnsafeMutableRawPointer"
+- !private "UnsafePointer"
+- !private "bson_destroy"
+- !private "bson_error_t"
+- !private "bson_t"
+- !private "free"
+- !private "mongoc_bulk_operation_destroy"
+- !private "mongoc_bulk_operation_execute"
+- !private "mongoc_bulk_operation_insert"
+- !private "mongoc_bulk_operation_update"
+- !private "mongoc_client_get_collection"
+- !private "mongoc_collection_aggregate"
+- !private "mongoc_collection_command"
+- !private "mongoc_collection_count"
+- !private "mongoc_collection_create_bulk_operation"
+- !private "mongoc_collection_create_index"
+- !private "mongoc_collection_destroy"
+- !private "mongoc_collection_drop"
+- !private "mongoc_collection_drop_index"
+- !private "mongoc_collection_find"
+- !private "mongoc_collection_find_and_modify"
+- !private "mongoc_collection_get_last_error"
+- !private "mongoc_collection_get_name"
+- !private "mongoc_collection_insert"
+- !private "mongoc_collection_remove"
+- !private "mongoc_collection_rename"
+- !private "mongoc_collection_save"
+- !private "mongoc_collection_stats"
+- !private "mongoc_collection_update"
+- !private "mongoc_collection_validate"
+- !private "mongoc_index_opt_geo_init"
+- "mongoc_index_opt_geo_t"
+- !private "mongoc_index_opt_init"
+- "mongoc_index_opt_storage_t"
+- "mongoc_index_opt_t"
+- "mongoc_insert_flags_t"
+- "mongoc_query_flags_t"
+- "mongoc_remove_flags_t"
+- "mongoc_update_flags_t"
+- !private "strdup"
+- !private "~="
+depends-member:
+- !private ["14PerfectMongoDB4BSONC", "append"]
+- !private ["14PerfectMongoDB4BSONC", "close"]
+- !private ["14PerfectMongoDB4BSONC", "deinit"]
+- !private ["14PerfectMongoDB4BSONC", "doc"]
+- !private ["14PerfectMongoDB4BSONC", "init"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "allocate"]
+- !private ["s7CVarArgP", "deallocate"]
+- !private ["s7CVarArgP", "deinitialize"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "pointee"]
+- !private ["s10CollectionP", "init"]
+- ["s10ComparableP", "allocate"]
+- !private ["s10ComparableP", "append"]
+- !private ["s10ComparableP", "close"]
+- !private ["s10ComparableP", "deallocate"]
+- !private ["s10ComparableP", "deinitialize"]
+- !private ["s10ComparableP", "doc"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "pointee"]
+- ["s28CustomDebugStringConvertibleP", "allocate"]
+- !private ["s28CustomDebugStringConvertibleP", "deallocate"]
+- !private ["s28CustomDebugStringConvertibleP", "deinitialize"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "pointee"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "allocate"]
+- !private ["s29CustomPlaygroundQuickLookableP", "deallocate"]
+- !private ["s29CustomPlaygroundQuickLookableP", "deinitialize"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "pointee"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "allocate"]
+- !private ["s17CustomReflectableP", "deallocate"]
+- !private ["s17CustomReflectableP", "deinitialize"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "pointee"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "close"]
+- !private ["s23CustomStringConvertibleP", "doc"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- ["s9EquatableP", "ArrayLiteralElement"]
+- ["s9EquatableP", "Element"]
+- !private ["s9EquatableP", "Int"]
+- !private ["s9EquatableP", "MONGOC_INDEX_STORAGE_OPT_MMAPV1"]
+- !private ["s9EquatableP", "MONGOC_INDEX_STORAGE_OPT_WIREDTIGER"]
+- !private ["s9EquatableP", "MONGOC_INSERT_CONTINUE_ON_ERROR"]
+- !private ["s9EquatableP", "MONGOC_INSERT_NONE"]
+- !private ["s9EquatableP", "MONGOC_INSERT_NO_VALIDATE"]
+- ["s9EquatableP", "MONGOC_QUERY_AWAIT_DATA"]
+- ["s9EquatableP", "MONGOC_QUERY_EXHAUST"]
+- ["s9EquatableP", "MONGOC_QUERY_NONE"]
+- ["s9EquatableP", "MONGOC_QUERY_NO_CURSOR_TIMEOUT"]
+- ["s9EquatableP", "MONGOC_QUERY_OPLOG_REPLAY"]
+- ["s9EquatableP", "MONGOC_QUERY_PARTIAL"]
+- ["s9EquatableP", "MONGOC_QUERY_SLAVE_OK"]
+- ["s9EquatableP", "MONGOC_QUERY_TAILABLE_CURSOR"]
+- !private ["s9EquatableP", "MONGOC_REMOVE_NONE"]
+- !private ["s9EquatableP", "MONGOC_REMOVE_SINGLE_REMOVE"]
+- !private ["s9EquatableP", "MONGOC_UPDATE_MULTI_UPDATE"]
+- !private ["s9EquatableP", "MONGOC_UPDATE_NONE"]
+- !private ["s9EquatableP", "MONGOC_UPDATE_NO_VALIDATE"]
+- !private ["s9EquatableP", "MONGOC_UPDATE_UPSERT"]
+- ["s9EquatableP", "MongoQueryFlag"]
+- ["s9EquatableP", "RawValue"]
+- !private ["s9EquatableP", "UInt32"]
+- ["s9EquatableP", ""]
+- ["s9EquatableP", "_Default_ArrayLiteralElement"]
+- ["s9EquatableP", "_Default_Element"]
+- ["s9EquatableP", "_Default_RawValue"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "allocate"]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "close"]
+- ["s9EquatableP", "contains"]
+- ["s9EquatableP", "continueOnError"]
+- !private ["s9EquatableP", "deallocate"]
+- !private ["s9EquatableP", "deinitialize"]
+- !private ["s9EquatableP", "doc"]
+- ["s9EquatableP", "formIntersection"]
+- ["s9EquatableP", "formSymmetricDifference"]
+- ["s9EquatableP", "formUnion"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "insert"]
+- ["s9EquatableP", "intersection"]
+- ["s9EquatableP", "isDisjoint"]
+- ["s9EquatableP", "isEmpty"]
+- ["s9EquatableP", "isSubset"]
+- ["s9EquatableP", "isSuperset"]
+- ["s9EquatableP", "mmapV1"]
+- !private ["s9EquatableP", "mongoFlag"]
+- !private ["s9EquatableP", "mongoc_insert_flags_t"]
+- !private ["s9EquatableP", "mongoc_query_flags_t"]
+- !private ["s9EquatableP", "mongoc_update_flags_t"]
+- ["s9EquatableP", "multiUpdate"]
+- ["s9EquatableP", "noValidate"]
+- ["s9EquatableP", "none"]
+- !private ["s9EquatableP", "pointee"]
+- !private ["s9EquatableP", "queryFlags"]
+- ["s9EquatableP", "rawValue"]
+- ["s9EquatableP", "remove"]
+- ["s9EquatableP", "singleRemove"]
+- ["s9EquatableP", "subtract"]
+- ["s9EquatableP", "subtracting"]
+- ["s9EquatableP", "symmetricDifference"]
+- ["s9EquatableP", "union"]
+- ["s9EquatableP", "update"]
+- ["s9EquatableP", "upsert"]
+- ["s9EquatableP", "wiredTiger"]
+- ["s25ExpressibleByArrayLiteralP", "ArrayLiteralElement"]
+- ["s25ExpressibleByArrayLiteralP", "Element"]
+- !private ["s25ExpressibleByArrayLiteralP", "Int"]
+- ["s25ExpressibleByArrayLiteralP", "MONGOC_QUERY_AWAIT_DATA"]
+- ["s25ExpressibleByArrayLiteralP", "MONGOC_QUERY_EXHAUST"]
+- ["s25ExpressibleByArrayLiteralP", "MONGOC_QUERY_NONE"]
+- ["s25ExpressibleByArrayLiteralP", "MONGOC_QUERY_NO_CURSOR_TIMEOUT"]
+- ["s25ExpressibleByArrayLiteralP", "MONGOC_QUERY_OPLOG_REPLAY"]
+- ["s25ExpressibleByArrayLiteralP", "MONGOC_QUERY_PARTIAL"]
+- ["s25ExpressibleByArrayLiteralP", "MONGOC_QUERY_SLAVE_OK"]
+- ["s25ExpressibleByArrayLiteralP", "MONGOC_QUERY_TAILABLE_CURSOR"]
+- ["s25ExpressibleByArrayLiteralP", "MongoQueryFlag"]
+- ["s25ExpressibleByArrayLiteralP", "RawValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "UInt32"]
+- ["s25ExpressibleByArrayLiteralP", ""]
+- ["s25ExpressibleByArrayLiteralP", "_Default_ArrayLiteralElement"]
+- ["s25ExpressibleByArrayLiteralP", "_Default_Element"]
+- ["s25ExpressibleByArrayLiteralP", "_Default_RawValue"]
+- ["s25ExpressibleByArrayLiteralP", "contains"]
+- ["s25ExpressibleByArrayLiteralP", "formIntersection"]
+- ["s25ExpressibleByArrayLiteralP", "formSymmetricDifference"]
+- ["s25ExpressibleByArrayLiteralP", "formUnion"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- ["s25ExpressibleByArrayLiteralP", "insert"]
+- ["s25ExpressibleByArrayLiteralP", "intersection"]
+- ["s25ExpressibleByArrayLiteralP", "isDisjoint"]
+- ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- ["s25ExpressibleByArrayLiteralP", "isSubset"]
+- ["s25ExpressibleByArrayLiteralP", "isSuperset"]
+- !private ["s25ExpressibleByArrayLiteralP", "mongoc_query_flags_t"]
+- !private ["s25ExpressibleByArrayLiteralP", "none"]
+- !private ["s25ExpressibleByArrayLiteralP", "queryFlags"]
+- ["s25ExpressibleByArrayLiteralP", "rawValue"]
+- ["s25ExpressibleByArrayLiteralP", "remove"]
+- ["s25ExpressibleByArrayLiteralP", "subtract"]
+- ["s25ExpressibleByArrayLiteralP", "subtracting"]
+- ["s25ExpressibleByArrayLiteralP", "symmetricDifference"]
+- ["s25ExpressibleByArrayLiteralP", "union"]
+- ["s25ExpressibleByArrayLiteralP", "update"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s8HashableP", "MONGOC_INDEX_STORAGE_OPT_MMAPV1"]
+- !private ["s8HashableP", "MONGOC_INDEX_STORAGE_OPT_WIREDTIGER"]
+- !private ["s8HashableP", "MONGOC_INSERT_CONTINUE_ON_ERROR"]
+- !private ["s8HashableP", "MONGOC_INSERT_NONE"]
+- !private ["s8HashableP", "MONGOC_INSERT_NO_VALIDATE"]
+- !private ["s8HashableP", "MONGOC_REMOVE_NONE"]
+- !private ["s8HashableP", "MONGOC_REMOVE_SINGLE_REMOVE"]
+- !private ["s8HashableP", "MONGOC_UPDATE_MULTI_UPDATE"]
+- !private ["s8HashableP", "MONGOC_UPDATE_NONE"]
+- !private ["s8HashableP", "MONGOC_UPDATE_NO_VALIDATE"]
+- !private ["s8HashableP", "MONGOC_UPDATE_UPSERT"]
+- ["s8HashableP", "RawValue"]
+- ["s8HashableP", ""]
+- ["s8HashableP", "_Default_RawValue"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "allocate"]
+- ["s8HashableP", "continueOnError"]
+- !private ["s8HashableP", "deallocate"]
+- !private ["s8HashableP", "deinitialize"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "mmapV1"]
+- !private ["s8HashableP", "mongoFlag"]
+- !private ["s8HashableP", "mongoc_insert_flags_t"]
+- !private ["s8HashableP", "mongoc_update_flags_t"]
+- ["s8HashableP", "multiUpdate"]
+- ["s8HashableP", "noValidate"]
+- ["s8HashableP", "none"]
+- !private ["s8HashableP", "pointee"]
+- ["s8HashableP", "rawValue"]
+- ["s8HashableP", "singleRemove"]
+- ["s8HashableP", "upsert"]
+- ["s8HashableP", "wiredTiger"]
+- !private ["Si", "init"]
+- !private ["s5Int32V", "init"]
+- !private ["s5Int64V", "init"]
+- !private ["s16IteratorProtocolP", "init"]
+- !private ["s16IteratorProtocolP", "next"]
+- !private ["10PerfectLib15JSONConvertibleP", "_getBuiltinLogicValue"]
+- !private ["10PerfectLib15JSONConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["14PerfectMongoDB0B6ClientC", "ptr"]
+- ["14PerfectMongoDB0B10CollectionC", "BSON"]
+- ["14PerfectMongoDB0B10CollectionC", "Bool"]
+- ["14PerfectMongoDB0B10CollectionC", "Int"]
+- !private ["14PerfectMongoDB0B10CollectionC", "Int64"]
+- ["14PerfectMongoDB0B10CollectionC", "MongoClient"]
+- ["14PerfectMongoDB0B10CollectionC", "MongoCursor"]
+- ["14PerfectMongoDB0B10CollectionC", "MongoIndexOptions"]
+- ["14PerfectMongoDB0B10CollectionC", "MongoInsertFlag"]
+- ["14PerfectMongoDB0B10CollectionC", "MongoQueryFlag"]
+- ["14PerfectMongoDB0B10CollectionC", "MongoRemoveFlag"]
+- ["14PerfectMongoDB0B10CollectionC", "MongoResult"]
+- ["14PerfectMongoDB0B10CollectionC", "MongoUpdateFlag"]
+- !private ["14PerfectMongoDB0B10CollectionC", "NoDestroyBSON"]
+- ["14PerfectMongoDB0B10CollectionC", "OpaquePointer"]
+- ["14PerfectMongoDB0B10CollectionC", "Result"]
+- ["14PerfectMongoDB0B10CollectionC", "String"]
+- !private ["14PerfectMongoDB0B10CollectionC", "UInt32"]
+- !private ["14PerfectMongoDB0B10CollectionC", "UnsafeMutablePointer"]
+- ["14PerfectMongoDB0B10CollectionC", "aggregate"]
+- !private ["14PerfectMongoDB0B10CollectionC", "bson_destroy"]
+- !private ["14PerfectMongoDB0B10CollectionC", "bson_error_t"]
+- !private ["14PerfectMongoDB0B10CollectionC", "bson_t"]
+- ["14PerfectMongoDB0B10CollectionC", "close"]
+- ["14PerfectMongoDB0B10CollectionC", "command"]
+- ["14PerfectMongoDB0B10CollectionC", "count"]
+- ["14PerfectMongoDB0B10CollectionC", "createIndex"]
+- ["14PerfectMongoDB0B10CollectionC", "deinit"]
+- ["14PerfectMongoDB0B10CollectionC", "distinct"]
+- ["14PerfectMongoDB0B10CollectionC", "drop"]
+- ["14PerfectMongoDB0B10CollectionC", "dropIndex"]
+- ["14PerfectMongoDB0B10CollectionC", "find"]
+- ["14PerfectMongoDB0B10CollectionC", "findAndModify"]
+- ["14PerfectMongoDB0B10CollectionC", "getLastError"]
+- ["14PerfectMongoDB0B10CollectionC", "init"]
+- ["14PerfectMongoDB0B10CollectionC", "insert"]
+- !private ["14PerfectMongoDB0B10CollectionC", "mongoc_bulk_operation_destroy"]
+- !private ["14PerfectMongoDB0B10CollectionC", "mongoc_bulk_operation_execute"]
+- !private ["14PerfectMongoDB0B10CollectionC", "mongoc_bulk_operation_insert"]
+- !private ["14PerfectMongoDB0B10CollectionC", "mongoc_bulk_operation_update"]
+- !private ["14PerfectMongoDB0B10CollectionC", "mongoc_client_get_collection"]
+- !private ["14PerfectMongoDB0B10CollectionC", "mongoc_collection_aggregate"]
+- !private ["14PerfectMongoDB0B10CollectionC", "mongoc_collection_command"]
+- !private ["14PerfectMongoDB0B10CollectionC", "mongoc_collection_count"]
+- !private ["14PerfectMongoDB0B10CollectionC", "mongoc_collection_create_bulk_operation"]
+- !private ["14PerfectMongoDB0B10CollectionC", "mongoc_collection_create_index"]
+- !private ["14PerfectMongoDB0B10CollectionC", "mongoc_collection_destroy"]
+- !private ["14PerfectMongoDB0B10CollectionC", "mongoc_collection_drop"]
+- !private ["14PerfectMongoDB0B10CollectionC", "mongoc_collection_drop_index"]
+- !private ["14PerfectMongoDB0B10CollectionC", "mongoc_collection_find"]
+- !private ["14PerfectMongoDB0B10CollectionC", "mongoc_collection_find_and_modify"]
+- !private ["14PerfectMongoDB0B10CollectionC", "mongoc_collection_get_last_error"]
+- !private ["14PerfectMongoDB0B10CollectionC", "mongoc_collection_get_name"]
+- !private ["14PerfectMongoDB0B10CollectionC", "mongoc_collection_insert"]
+- !private ["14PerfectMongoDB0B10CollectionC", "mongoc_collection_remove"]
+- !private ["14PerfectMongoDB0B10CollectionC", "mongoc_collection_rename"]
+- !private ["14PerfectMongoDB0B10CollectionC", "mongoc_collection_save"]
+- !private ["14PerfectMongoDB0B10CollectionC", "mongoc_collection_stats"]
+- !private ["14PerfectMongoDB0B10CollectionC", "mongoc_collection_update"]
+- !private ["14PerfectMongoDB0B10CollectionC", "mongoc_collection_validate"]
+- ["14PerfectMongoDB0B10CollectionC", "name"]
+- ["14PerfectMongoDB0B10CollectionC", "ptr"]
+- ["14PerfectMongoDB0B10CollectionC", "remove"]
+- ["14PerfectMongoDB0B10CollectionC", "rename"]
+- ["14PerfectMongoDB0B10CollectionC", "save"]
+- ["14PerfectMongoDB0B10CollectionC", "stats"]
+- ["14PerfectMongoDB0B10CollectionC", "update"]
+- ["14PerfectMongoDB0B10CollectionC", "validate"]
+- !private ["14PerfectMongoDB0B6CursorC", "deinit"]
+- !private ["14PerfectMongoDB0B6CursorC", "init"]
+- !private ["14PerfectMongoDB0B6CursorC", "next"]
+- ["14PerfectMongoDB0B12IndexOptionsC", "BSON"]
+- ["14PerfectMongoDB0B12IndexOptionsC", "Bool"]
+- ["14PerfectMongoDB0B12IndexOptionsC", "Int32"]
+- !private ["14PerfectMongoDB0B12IndexOptionsC", "Int8"]
+- ["14PerfectMongoDB0B12IndexOptionsC", "MongoIndexOptionsGeo"]
+- ["14PerfectMongoDB0B12IndexOptionsC", "MongoIndexStorageOptionType"]
+- ["14PerfectMongoDB0B12IndexOptionsC", "String"]
+- ["14PerfectMongoDB0B12IndexOptionsC", "UnsafeMutablePointer"]
+- !private ["14PerfectMongoDB0B12IndexOptionsC", "UnsafeMutableRawPointer"]
+- !private ["14PerfectMongoDB0B12IndexOptionsC", "UnsafePointer"]
+- !private ["14PerfectMongoDB0B12IndexOptionsC", "bson_t"]
+- ["14PerfectMongoDB0B12IndexOptionsC", "defLangNil"]
+- ["14PerfectMongoDB0B12IndexOptionsC", "deinit"]
+- !private ["14PerfectMongoDB0B12IndexOptionsC", "free"]
+- ["14PerfectMongoDB0B12IndexOptionsC", "geoOptions"]
+- ["14PerfectMongoDB0B12IndexOptionsC", "init"]
+- ["14PerfectMongoDB0B12IndexOptionsC", "langOverNil"]
+- !private ["14PerfectMongoDB0B12IndexOptionsC", "mongoc_index_opt_init"]
+- ["14PerfectMongoDB0B12IndexOptionsC", "mongoc_index_opt_storage_t"]
+- ["14PerfectMongoDB0B12IndexOptionsC", "mongoc_index_opt_t"]
+- ["14PerfectMongoDB0B12IndexOptionsC", "nameNil"]
+- ["14PerfectMongoDB0B12IndexOptionsC", "rawOpt"]
+- ["14PerfectMongoDB0B12IndexOptionsC", "storageOptions"]
+- !private ["14PerfectMongoDB0B12IndexOptionsC", "strdup"]
+- ["14PerfectMongoDB0B12IndexOptionsC", "weightsDoc"]
+- ["14PerfectMongoDB0B15IndexOptionsGeoC", "Double"]
+- ["14PerfectMongoDB0B15IndexOptionsGeoC", "UInt8"]
+- ["14PerfectMongoDB0B15IndexOptionsGeoC", "UnsafeMutablePointer"]
+- ["14PerfectMongoDB0B15IndexOptionsGeoC", "deinit"]
+- ["14PerfectMongoDB0B15IndexOptionsGeoC", "init"]
+- !private ["14PerfectMongoDB0B15IndexOptionsGeoC", "mongoc_index_opt_geo_init"]
+- ["14PerfectMongoDB0B15IndexOptionsGeoC", "mongoc_index_opt_geo_t"]
+- ["14PerfectMongoDB0B15IndexOptionsGeoC", "rawOpt"]
+- !private ["14PerfectMongoDB0B22IndexStorageOptionTypeO", "MONGOC_INDEX_STORAGE_OPT_MMAPV1"]
+- !private ["14PerfectMongoDB0B22IndexStorageOptionTypeO", "MONGOC_INDEX_STORAGE_OPT_WIREDTIGER"]
+- ["14PerfectMongoDB0B22IndexStorageOptionTypeO", "RawValue"]
+- ["14PerfectMongoDB0B22IndexStorageOptionTypeO", "UInt32"]
+- ["14PerfectMongoDB0B22IndexStorageOptionTypeO", "_Default_RawValue"]
+- ["14PerfectMongoDB0B22IndexStorageOptionTypeO", "deinit"]
+- ["14PerfectMongoDB0B22IndexStorageOptionTypeO", "hashValue"]
+- ["14PerfectMongoDB0B22IndexStorageOptionTypeO", "init"]
+- ["14PerfectMongoDB0B22IndexStorageOptionTypeO", "mmapV1"]
+- ["14PerfectMongoDB0B22IndexStorageOptionTypeO", "mongoType"]
+- ["14PerfectMongoDB0B22IndexStorageOptionTypeO", "rawValue"]
+- ["14PerfectMongoDB0B22IndexStorageOptionTypeO", "wiredTiger"]
+- !private ["14PerfectMongoDB0B10InsertFlagO", "MONGOC_INSERT_CONTINUE_ON_ERROR"]
+- !private ["14PerfectMongoDB0B10InsertFlagO", "MONGOC_INSERT_NONE"]
+- !private ["14PerfectMongoDB0B10InsertFlagO", "MONGOC_INSERT_NO_VALIDATE"]
+- ["14PerfectMongoDB0B10InsertFlagO", "RawValue"]
+- ["14PerfectMongoDB0B10InsertFlagO", "_Default_RawValue"]
+- ["14PerfectMongoDB0B10InsertFlagO", "continueOnError"]
+- ["14PerfectMongoDB0B10InsertFlagO", "deinit"]
+- ["14PerfectMongoDB0B10InsertFlagO", "hashValue"]
+- ["14PerfectMongoDB0B10InsertFlagO", "init"]
+- ["14PerfectMongoDB0B10InsertFlagO", "mongoFlag"]
+- ["14PerfectMongoDB0B10InsertFlagO", "mongoc_insert_flags_t"]
+- ["14PerfectMongoDB0B10InsertFlagO", "noValidate"]
+- ["14PerfectMongoDB0B10InsertFlagO", "none"]
+- ["14PerfectMongoDB0B10InsertFlagO", "rawValue"]
+- ["14PerfectMongoDB0B9QueryFlagV", "ArrayLiteralElement"]
+- ["14PerfectMongoDB0B9QueryFlagV", "Element"]
+- ["14PerfectMongoDB0B9QueryFlagV", "Int"]
+- ["14PerfectMongoDB0B9QueryFlagV", "MONGOC_QUERY_AWAIT_DATA"]
+- ["14PerfectMongoDB0B9QueryFlagV", "MONGOC_QUERY_EXHAUST"]
+- ["14PerfectMongoDB0B9QueryFlagV", "MONGOC_QUERY_NONE"]
+- ["14PerfectMongoDB0B9QueryFlagV", "MONGOC_QUERY_NO_CURSOR_TIMEOUT"]
+- ["14PerfectMongoDB0B9QueryFlagV", "MONGOC_QUERY_OPLOG_REPLAY"]
+- ["14PerfectMongoDB0B9QueryFlagV", "MONGOC_QUERY_PARTIAL"]
+- ["14PerfectMongoDB0B9QueryFlagV", "MONGOC_QUERY_SLAVE_OK"]
+- ["14PerfectMongoDB0B9QueryFlagV", "MONGOC_QUERY_TAILABLE_CURSOR"]
+- ["14PerfectMongoDB0B9QueryFlagV", "MongoQueryFlag"]
+- ["14PerfectMongoDB0B9QueryFlagV", "RawValue"]
+- !private ["14PerfectMongoDB0B9QueryFlagV", "UInt32"]
+- ["14PerfectMongoDB0B9QueryFlagV", "_Default_ArrayLiteralElement"]
+- ["14PerfectMongoDB0B9QueryFlagV", "_Default_Element"]
+- ["14PerfectMongoDB0B9QueryFlagV", "_Default_RawValue"]
+- ["14PerfectMongoDB0B9QueryFlagV", "awaitData"]
+- ["14PerfectMongoDB0B9QueryFlagV", "contains"]
+- ["14PerfectMongoDB0B9QueryFlagV", "deinit"]
+- ["14PerfectMongoDB0B9QueryFlagV", "exhaust"]
+- ["14PerfectMongoDB0B9QueryFlagV", "formIntersection"]
+- ["14PerfectMongoDB0B9QueryFlagV", "formSymmetricDifference"]
+- ["14PerfectMongoDB0B9QueryFlagV", "formUnion"]
+- ["14PerfectMongoDB0B9QueryFlagV", "init"]
+- ["14PerfectMongoDB0B9QueryFlagV", "insert"]
+- ["14PerfectMongoDB0B9QueryFlagV", "intersection"]
+- ["14PerfectMongoDB0B9QueryFlagV", "isDisjoint"]
+- ["14PerfectMongoDB0B9QueryFlagV", "isEmpty"]
+- ["14PerfectMongoDB0B9QueryFlagV", "isSubset"]
+- ["14PerfectMongoDB0B9QueryFlagV", "isSuperset"]
+- ["14PerfectMongoDB0B9QueryFlagV", "mongoc_query_flags_t"]
+- ["14PerfectMongoDB0B9QueryFlagV", "noCursorTimeout"]
+- ["14PerfectMongoDB0B9QueryFlagV", "none"]
+- ["14PerfectMongoDB0B9QueryFlagV", "opLogReplay"]
+- ["14PerfectMongoDB0B9QueryFlagV", "partial"]
+- ["14PerfectMongoDB0B9QueryFlagV", "queryFlags"]
+- ["14PerfectMongoDB0B9QueryFlagV", "rawValue"]
+- ["14PerfectMongoDB0B9QueryFlagV", "remove"]
+- ["14PerfectMongoDB0B9QueryFlagV", "slaveOk"]
+- ["14PerfectMongoDB0B9QueryFlagV", "subtract"]
+- ["14PerfectMongoDB0B9QueryFlagV", "subtracting"]
+- ["14PerfectMongoDB0B9QueryFlagV", "symmetricDifference"]
+- ["14PerfectMongoDB0B9QueryFlagV", "tailableCursor"]
+- ["14PerfectMongoDB0B9QueryFlagV", "union"]
+- ["14PerfectMongoDB0B9QueryFlagV", "update"]
+- !private ["14PerfectMongoDB0B10RemoveFlagO", "MONGOC_REMOVE_NONE"]
+- !private ["14PerfectMongoDB0B10RemoveFlagO", "MONGOC_REMOVE_SINGLE_REMOVE"]
+- ["14PerfectMongoDB0B10RemoveFlagO", "RawValue"]
+- ["14PerfectMongoDB0B10RemoveFlagO", "_Default_RawValue"]
+- ["14PerfectMongoDB0B10RemoveFlagO", "deinit"]
+- ["14PerfectMongoDB0B10RemoveFlagO", "hashValue"]
+- ["14PerfectMongoDB0B10RemoveFlagO", "init"]
+- ["14PerfectMongoDB0B10RemoveFlagO", "mongoFlag"]
+- ["14PerfectMongoDB0B10RemoveFlagO", "mongoc_remove_flags_t"]
+- ["14PerfectMongoDB0B10RemoveFlagO", "none"]
+- ["14PerfectMongoDB0B10RemoveFlagO", "rawValue"]
+- ["14PerfectMongoDB0B10RemoveFlagO", "singleRemove"]
+- !private ["14PerfectMongoDB0B6ResultO", "error"]
+- !private ["14PerfectMongoDB0B6ResultO", "fromError"]
+- !private ["14PerfectMongoDB0B6ResultO", "replyDoc"]
+- !private ["14PerfectMongoDB0B6ResultO", "replyInt"]
+- !private ["14PerfectMongoDB0B6ResultO", "success"]
+- !private ["14PerfectMongoDB0B10UpdateFlagO", "MONGOC_UPDATE_MULTI_UPDATE"]
+- !private ["14PerfectMongoDB0B10UpdateFlagO", "MONGOC_UPDATE_NONE"]
+- !private ["14PerfectMongoDB0B10UpdateFlagO", "MONGOC_UPDATE_NO_VALIDATE"]
+- !private ["14PerfectMongoDB0B10UpdateFlagO", "MONGOC_UPDATE_UPSERT"]
+- ["14PerfectMongoDB0B10UpdateFlagO", "RawValue"]
+- ["14PerfectMongoDB0B10UpdateFlagO", "_Default_RawValue"]
+- ["14PerfectMongoDB0B10UpdateFlagO", "deinit"]
+- ["14PerfectMongoDB0B10UpdateFlagO", "hashValue"]
+- ["14PerfectMongoDB0B10UpdateFlagO", "init"]
+- ["14PerfectMongoDB0B10UpdateFlagO", "mongoFlag"]
+- ["14PerfectMongoDB0B10UpdateFlagO", "mongoc_update_flags_t"]
+- ["14PerfectMongoDB0B10UpdateFlagO", "multiUpdate"]
+- ["14PerfectMongoDB0B10UpdateFlagO", "noValidate"]
+- ["14PerfectMongoDB0B10UpdateFlagO", "none"]
+- ["14PerfectMongoDB0B10UpdateFlagO", "rawValue"]
+- ["14PerfectMongoDB0B10UpdateFlagO", "upsert"]
+- !private ["14PerfectMongoDB13NoDestroyBSONC", "init"]
+- !private ["s7NumericP", "init"]
+- ["s13OpaquePointerV", "init"]
+- ["s9OptionSetP", "ArrayLiteralElement"]
+- ["s9OptionSetP", "Element"]
+- !private ["s9OptionSetP", "Int"]
+- ["s9OptionSetP", "MONGOC_QUERY_AWAIT_DATA"]
+- ["s9OptionSetP", "MONGOC_QUERY_EXHAUST"]
+- ["s9OptionSetP", "MONGOC_QUERY_NONE"]
+- ["s9OptionSetP", "MONGOC_QUERY_NO_CURSOR_TIMEOUT"]
+- ["s9OptionSetP", "MONGOC_QUERY_OPLOG_REPLAY"]
+- ["s9OptionSetP", "MONGOC_QUERY_PARTIAL"]
+- ["s9OptionSetP", "MONGOC_QUERY_SLAVE_OK"]
+- ["s9OptionSetP", "MONGOC_QUERY_TAILABLE_CURSOR"]
+- ["s9OptionSetP", "MongoQueryFlag"]
+- ["s9OptionSetP", "RawValue"]
+- !private ["s9OptionSetP", "UInt32"]
+- ["s9OptionSetP", ""]
+- ["s9OptionSetP", "_Default_ArrayLiteralElement"]
+- ["s9OptionSetP", "_Default_Element"]
+- ["s9OptionSetP", "_Default_RawValue"]
+- ["s9OptionSetP", "contains"]
+- ["s9OptionSetP", "formIntersection"]
+- ["s9OptionSetP", "formSymmetricDifference"]
+- ["s9OptionSetP", "formUnion"]
+- ["s9OptionSetP", "init"]
+- ["s9OptionSetP", "insert"]
+- ["s9OptionSetP", "intersection"]
+- ["s9OptionSetP", "isDisjoint"]
+- ["s9OptionSetP", "isEmpty"]
+- ["s9OptionSetP", "isSubset"]
+- ["s9OptionSetP", "isSuperset"]
+- !private ["s9OptionSetP", "mongoc_query_flags_t"]
+- !private ["s9OptionSetP", "none"]
+- !private ["s9OptionSetP", "queryFlags"]
+- ["s9OptionSetP", "rawValue"]
+- ["s9OptionSetP", "remove"]
+- ["s9OptionSetP", "subtract"]
+- ["s9OptionSetP", "subtracting"]
+- ["s9OptionSetP", "symmetricDifference"]
+- ["s9OptionSetP", "union"]
+- ["s9OptionSetP", "update"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- ["s16RawRepresentableP", "ArrayLiteralElement"]
+- ["s16RawRepresentableP", "Element"]
+- !private ["s16RawRepresentableP", "Int"]
+- !private ["s16RawRepresentableP", "MONGOC_INDEX_STORAGE_OPT_MMAPV1"]
+- !private ["s16RawRepresentableP", "MONGOC_INDEX_STORAGE_OPT_WIREDTIGER"]
+- !private ["s16RawRepresentableP", "MONGOC_INSERT_CONTINUE_ON_ERROR"]
+- !private ["s16RawRepresentableP", "MONGOC_INSERT_NONE"]
+- !private ["s16RawRepresentableP", "MONGOC_INSERT_NO_VALIDATE"]
+- ["s16RawRepresentableP", "MONGOC_QUERY_AWAIT_DATA"]
+- ["s16RawRepresentableP", "MONGOC_QUERY_EXHAUST"]
+- ["s16RawRepresentableP", "MONGOC_QUERY_NONE"]
+- ["s16RawRepresentableP", "MONGOC_QUERY_NO_CURSOR_TIMEOUT"]
+- ["s16RawRepresentableP", "MONGOC_QUERY_OPLOG_REPLAY"]
+- ["s16RawRepresentableP", "MONGOC_QUERY_PARTIAL"]
+- ["s16RawRepresentableP", "MONGOC_QUERY_SLAVE_OK"]
+- ["s16RawRepresentableP", "MONGOC_QUERY_TAILABLE_CURSOR"]
+- !private ["s16RawRepresentableP", "MONGOC_REMOVE_NONE"]
+- !private ["s16RawRepresentableP", "MONGOC_REMOVE_SINGLE_REMOVE"]
+- !private ["s16RawRepresentableP", "MONGOC_UPDATE_MULTI_UPDATE"]
+- !private ["s16RawRepresentableP", "MONGOC_UPDATE_NONE"]
+- !private ["s16RawRepresentableP", "MONGOC_UPDATE_NO_VALIDATE"]
+- !private ["s16RawRepresentableP", "MONGOC_UPDATE_UPSERT"]
+- ["s16RawRepresentableP", "MongoQueryFlag"]
+- ["s16RawRepresentableP", "RawValue"]
+- !private ["s16RawRepresentableP", "UInt32"]
+- ["s16RawRepresentableP", ""]
+- ["s16RawRepresentableP", "_Default_ArrayLiteralElement"]
+- ["s16RawRepresentableP", "_Default_Element"]
+- ["s16RawRepresentableP", "_Default_RawValue"]
+- ["s16RawRepresentableP", "contains"]
+- ["s16RawRepresentableP", "continueOnError"]
+- ["s16RawRepresentableP", "formIntersection"]
+- ["s16RawRepresentableP", "formSymmetricDifference"]
+- ["s16RawRepresentableP", "formUnion"]
+- ["s16RawRepresentableP", "hashValue"]
+- ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "insert"]
+- ["s16RawRepresentableP", "intersection"]
+- ["s16RawRepresentableP", "isDisjoint"]
+- ["s16RawRepresentableP", "isEmpty"]
+- ["s16RawRepresentableP", "isSubset"]
+- ["s16RawRepresentableP", "isSuperset"]
+- ["s16RawRepresentableP", "mmapV1"]
+- !private ["s16RawRepresentableP", "mongoFlag"]
+- !private ["s16RawRepresentableP", "mongoc_insert_flags_t"]
+- !private ["s16RawRepresentableP", "mongoc_query_flags_t"]
+- !private ["s16RawRepresentableP", "mongoc_update_flags_t"]
+- ["s16RawRepresentableP", "multiUpdate"]
+- ["s16RawRepresentableP", "noValidate"]
+- ["s16RawRepresentableP", "none"]
+- !private ["s16RawRepresentableP", "queryFlags"]
+- ["s16RawRepresentableP", "rawValue"]
+- ["s16RawRepresentableP", "remove"]
+- ["s16RawRepresentableP", "singleRemove"]
+- ["s16RawRepresentableP", "subtract"]
+- ["s16RawRepresentableP", "subtracting"]
+- ["s16RawRepresentableP", "symmetricDifference"]
+- ["s16RawRepresentableP", "union"]
+- ["s16RawRepresentableP", "update"]
+- ["s16RawRepresentableP", "upsert"]
+- ["s16RawRepresentableP", "wiredTiger"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "next"]
+- ["s10SetAlgebraP", "ArrayLiteralElement"]
+- ["s10SetAlgebraP", "Element"]
+- !private ["s10SetAlgebraP", "Int"]
+- ["s10SetAlgebraP", "MONGOC_QUERY_AWAIT_DATA"]
+- ["s10SetAlgebraP", "MONGOC_QUERY_EXHAUST"]
+- ["s10SetAlgebraP", "MONGOC_QUERY_NONE"]
+- ["s10SetAlgebraP", "MONGOC_QUERY_NO_CURSOR_TIMEOUT"]
+- ["s10SetAlgebraP", "MONGOC_QUERY_OPLOG_REPLAY"]
+- ["s10SetAlgebraP", "MONGOC_QUERY_PARTIAL"]
+- ["s10SetAlgebraP", "MONGOC_QUERY_SLAVE_OK"]
+- ["s10SetAlgebraP", "MONGOC_QUERY_TAILABLE_CURSOR"]
+- ["s10SetAlgebraP", "MongoQueryFlag"]
+- ["s10SetAlgebraP", "RawValue"]
+- !private ["s10SetAlgebraP", "UInt32"]
+- ["s10SetAlgebraP", ""]
+- ["s10SetAlgebraP", "_Default_ArrayLiteralElement"]
+- ["s10SetAlgebraP", "_Default_Element"]
+- ["s10SetAlgebraP", "_Default_RawValue"]
+- ["s10SetAlgebraP", "contains"]
+- ["s10SetAlgebraP", "formIntersection"]
+- ["s10SetAlgebraP", "formSymmetricDifference"]
+- ["s10SetAlgebraP", "formUnion"]
+- ["s10SetAlgebraP", "init"]
+- ["s10SetAlgebraP", "insert"]
+- ["s10SetAlgebraP", "intersection"]
+- ["s10SetAlgebraP", "isDisjoint"]
+- ["s10SetAlgebraP", "isEmpty"]
+- ["s10SetAlgebraP", "isSubset"]
+- ["s10SetAlgebraP", "isSuperset"]
+- !private ["s10SetAlgebraP", "mongoc_query_flags_t"]
+- !private ["s10SetAlgebraP", "none"]
+- !private ["s10SetAlgebraP", "queryFlags"]
+- ["s10SetAlgebraP", "rawValue"]
+- ["s10SetAlgebraP", "remove"]
+- ["s10SetAlgebraP", "subtract"]
+- ["s10SetAlgebraP", "subtracting"]
+- ["s10SetAlgebraP", "symmetricDifference"]
+- ["s10SetAlgebraP", "union"]
+- ["s10SetAlgebraP", "update"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- ["s10StrideableP", "allocate"]
+- !private ["s10StrideableP", "deallocate"]
+- !private ["s10StrideableP", "deinitialize"]
+- !private ["s10StrideableP", "init"]
+- !private ["s10StrideableP", "pointee"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s6UInt32V", "init"]
+- ["Sp", "allocate"]
+- !private ["Sp", "deallocate"]
+- !private ["Sp", "deinitialize"]
+- !private ["Sp", "init"]
+- !private ["Sp", "pointee"]
+- !private ["Sv", "init"]
+- !private ["SP", "init"]
+- !private ["s15UnsignedIntegerP", "init"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- ["s8_PointerP", "allocate"]
+- !private ["s8_PointerP", "deallocate"]
+- !private ["s8_PointerP", "deinitialize"]
+- !private ["s8_PointerP", "init"]
+- !private ["s8_PointerP", "pointee"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["SC13_bson_error_tV", "init"]
+- !private ["SC7_bson_tV", "init"]
+- !private ["SC22mongoc_index_opt_geo_tV", "haystack_bucket_size"]
+- !private ["SC22mongoc_index_opt_geo_tV", "twod_bits_precision"]
+- !private ["SC22mongoc_index_opt_geo_tV", "twod_location_max"]
+- !private ["SC22mongoc_index_opt_geo_tV", "twod_location_min"]
+- !private ["SC22mongoc_index_opt_geo_tV", "twod_sphere_version"]
+- !private ["SC26mongoc_index_opt_storage_tV", "type"]
+- !private ["SC18mongoc_index_opt_tV", "background"]
+- !private ["SC18mongoc_index_opt_tV", "default_language"]
+- !private ["SC18mongoc_index_opt_tV", "drop_dups"]
+- !private ["SC18mongoc_index_opt_tV", "expire_after_seconds"]
+- !private ["SC18mongoc_index_opt_tV", "geo_options"]
+- ["SC18mongoc_index_opt_tV", "init"]
+- !private ["SC18mongoc_index_opt_tV", "language_override"]
+- !private ["SC18mongoc_index_opt_tV", "name"]
+- !private ["SC18mongoc_index_opt_tV", "sparse"]
+- !private ["SC18mongoc_index_opt_tV", "unique"]
+- !private ["SC18mongoc_index_opt_tV", "v"]
+- !private ["SC18mongoc_index_opt_tV", "weights"]
+- !private ["SC31mongoc_index_storage_opt_type_tV", "rawValue"]
+- !private ["SC21mongoc_insert_flags_tV", "init"]
+- !private ["SC20mongoc_query_flags_tV", "init"]
+- !private ["SC20mongoc_query_flags_tV", "rawValue"]
+- !private ["SC21mongoc_update_flags_tV", "init"]
+depends-nominal:
+- !private "14PerfectMongoDB4BSONC"
+- !private "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- !private "Si"
+- !private "s5Int32V"
+- !private "s5Int64V"
+- !private "s16IteratorProtocolP"
+- !private "10PerfectLib15JSONConvertibleP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "14PerfectMongoDB0B6ClientC"
+- "14PerfectMongoDB0B10CollectionC"
+- !private "14PerfectMongoDB0B6CursorC"
+- "14PerfectMongoDB0B12IndexOptionsC"
+- "14PerfectMongoDB0B15IndexOptionsGeoC"
+- "14PerfectMongoDB0B22IndexStorageOptionTypeO"
+- "14PerfectMongoDB0B10InsertFlagO"
+- "14PerfectMongoDB0B9QueryFlagV"
+- "14PerfectMongoDB0B10RemoveFlagO"
+- !private "14PerfectMongoDB0B6ResultO"
+- "14PerfectMongoDB0B10UpdateFlagO"
+- !private "14PerfectMongoDB13NoDestroyBSONC"
+- !private "s7NumericP"
+- "s13OpaquePointerV"
+- "s9OptionSetP"
+- !private "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- !private "s8SequenceP"
+- "s10SetAlgebraP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s6UInt32V"
+- "Sp"
+- !private "Sv"
+- !private "SP"
+- !private "s15UnsignedIntegerP"
+- !private "s18_BitwiseOperationsP"
+- !private "s15_CVarArgAlignedP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s21_ObjectiveCBridgeableP"
+- "s8_PointerP"
+- !private "s16_SwiftStringViewP"
+- !private "SC13_bson_error_tV"
+- !private "SC7_bson_tV"
+- !private "SC22mongoc_index_opt_geo_tV"
+- !private "SC26mongoc_index_opt_storage_tV"
+- "SC18mongoc_index_opt_tV"
+- !private "SC31mongoc_index_storage_opt_type_tV"
+- !private "SC21mongoc_insert_flags_tV"
+- !private "SC20mongoc_query_flags_tV"
+- !private "SC21mongoc_update_flags_tV"
+depends-dynamic-lookup:
+depends-external:
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/os.apinotesc"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/marc/Dev/SwiftFramework/.build/x86_64-apple-macosx10.10/debug/PerfectLib.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/os.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-CMongo.git--7200463005611678352/module.modulemap"
+- "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-CBSON.git-8939878273781718947/module.modulemap"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/usr/include/xpc/XPC.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "4edb5d4973658eaaa712aaa9b682e839"

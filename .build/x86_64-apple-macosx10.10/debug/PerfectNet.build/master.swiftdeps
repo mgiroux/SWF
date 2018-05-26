@@ -1,0 +1,11 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "497d866ce162b05fbcc1aef6c13f9034"
+build_time: [1527346247, 984963000]
+inputs:
+  "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/Net.swift": [1527346227, 0]
+  "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetAddress.swift": [1527346227, 0]
+  "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetEvent.swift": [1527346227, 0]
+  "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetNamedPipe.swift": [1527346227, 0]
+  "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetTCP.swift": [1527346227, 0]
+  "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetTCPSSL.swift": [1527346227, 0]
+  "/Users/marc/Dev/SwiftFramework/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetUDP.swift": [1527346227, 0]

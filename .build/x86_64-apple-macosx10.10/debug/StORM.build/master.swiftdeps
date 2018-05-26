@@ -1,0 +1,16 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "b4bbf4040bd3fb420aab0b16636283d7"
+build_time: [1527346244, 128667000]
+inputs:
+  "/Users/marc/Dev/SwiftFramework/.build/checkouts/StORM.git-6077292811663054913/Sources/StORM/Extract.swift": [1527346224, 0]
+  "/Users/marc/Dev/SwiftFramework/.build/checkouts/StORM.git-6077292811663054913/Sources/StORM/StORM.swift": [1527346224, 0]
+  "/Users/marc/Dev/SwiftFramework/.build/checkouts/StORM.git-6077292811663054913/Sources/StORM/StORMConnect.swift": [1527346224, 0]
+  "/Users/marc/Dev/SwiftFramework/.build/checkouts/StORM.git-6077292811663054913/Sources/StORM/StORMCursor.swift": [1527346224, 0]
+  "/Users/marc/Dev/SwiftFramework/.build/checkouts/StORM.git-6077292811663054913/Sources/StORM/StORMDataSource.swift": [1527346224, 0]
+  "/Users/marc/Dev/SwiftFramework/.build/checkouts/StORM.git-6077292811663054913/Sources/StORM/StORMDataSourceCredentials.swift": [1527346224, 0]
+  "/Users/marc/Dev/SwiftFramework/.build/checkouts/StORM.git-6077292811663054913/Sources/StORM/StORMDataSourceOptions.swift": [1527346224, 0]
+  "/Users/marc/Dev/SwiftFramework/.build/checkouts/StORM.git-6077292811663054913/Sources/StORM/StORMError.swift": [1527346224, 0]
+  "/Users/marc/Dev/SwiftFramework/.build/checkouts/StORM.git-6077292811663054913/Sources/StORM/StORMJoins.swift": [1527346224, 0]
+  "/Users/marc/Dev/SwiftFramework/.build/checkouts/StORM.git-6077292811663054913/Sources/StORM/StORMProtocol.swift": [1527346224, 0]
+  "/Users/marc/Dev/SwiftFramework/.build/checkouts/StORM.git-6077292811663054913/Sources/StORM/StORMRow.swift": [1527346224, 0]
+  "/Users/marc/Dev/SwiftFramework/.build/checkouts/StORM.git-6077292811663054913/Sources/StORM/StORMtResultSet.swift": [1527346224, 0]

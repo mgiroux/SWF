@@ -1,0 +1,10 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "0f199cd23bc221fc195007b97bb789bf"
+build_time: [1527346256, 895620000]
+inputs:
+  "/Users/marc/Dev/SwiftFramework/Sources/SWFConfig.swift": [1527345881, 0]
+  "/Users/marc/Dev/SwiftFramework/Sources/SWFController.swift": [1527345881, 0]
+  "/Users/marc/Dev/SwiftFramework/Sources/SWFRouter.swift": [1527345881, 0]
+  "/Users/marc/Dev/SwiftFramework/Sources/SWFServer.swift": [1527345881, 0]
+  "/Users/marc/Dev/SwiftFramework/Sources/SWFTools.swift": [1527345881, 0]
+  "/Users/marc/Dev/SwiftFramework/Sources/SWFView.swift": [1527345881, 0]
