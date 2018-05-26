@@ -19,7 +19,7 @@ public enum SWFWebMethod {
     case patch
 }
 
-public class SWFRouter
+open class SWFRouter
 {
     internal var routes = Routes()
     internal var groups = [String: Routes]()
@@ -27,14 +27,14 @@ public class SWFRouter
     init()
     {
         // This handles static files
-        self.routes.add(method: .get, uri: "/public/**") { (request, response) in
-            request.path = "public/" + request.urlVariables[routeTrailingWildcardKey]!
-            let handler = StaticFileHandler(documentRoot: Bundle.main.bundlePath + "/public", allowResponseFilters: true)
+        self.routes.add(method: .get, uri: "/open/**") { (request, response) in
+            request.path = "open/" + request.urlVariables[routeTrailingWildcardKey]!
+            let handler = StaticFileHandler(documentRoot: Bundle.main.bundlePath + "/open", allowResponseFilters: true)
             handler.handleRequest(request: request, response: response)
         }
     }
     
-    public func addRoute(method: SWFWebMethod, uri: String, handler: @escaping (SWFServerRequest, SWFServerResponse) -> ())
+    open func addRoute(method: SWFWebMethod, uri: String, handler: @escaping (SWFServerRequest, SWFServerResponse) -> ())
     {
         let httpMethod = self.getPerfectMethodType(method)
         
@@ -43,7 +43,7 @@ public class SWFRouter
         })
     }
     
-    public func addRoute(group: String, method: SWFWebMethod, uri: String, handler: @escaping (SWFServerRequest, SWFServerResponse) -> ())
+    open func addRoute(group: String, method: SWFWebMethod, uri: String, handler: @escaping (SWFServerRequest, SWFServerResponse) -> ())
     {
         let httpMethod = self.getPerfectMethodType(method)
         
@@ -52,7 +52,7 @@ public class SWFRouter
         })
     }
     
-    public func addRouteGroup(name: String, path: String)
+    open func addRouteGroup(name: String, path: String)
     {
         let group         = Routes(baseUri: path)
         self.groups[name] = group

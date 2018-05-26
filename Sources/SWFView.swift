@@ -9,12 +9,12 @@ import Foundation
 import Stencil
 import PathKit
 
-public class SWFView
+open class SWFView
 {
-    public weak var response: SWFServerResponse?
-    public let templatePath = Bundle.main.bundlePath
+    open weak var response: SWFServerResponse?
+    open let templatePath = Bundle.main.bundlePath
     
-    static public var extensions = Extension()
+    static open var extensions = Extension()
     
     init()
     {
@@ -22,7 +22,7 @@ public class SWFView
         self.registerSystemExtensions()
     }
     
-    public func render(_ file: String, data: [String: Any])
+    open func render(_ file: String, data: [String: Any])
     {
         var html = ""
         
@@ -40,7 +40,7 @@ public class SWFView
         self.response?.completed()
     }
     
-    public func render(data: [String: Any])
+    open func render(data: [String: Any])
     {
         self.response?.setHeader(.contentType, value: "application/json")
         self.response?.setHeader(.contentEncoding, value: "UTF-8")
@@ -55,7 +55,7 @@ public class SWFView
         self.response?.completed()
     }
     
-    public func partial(_ file: String, data: [String: Any]) -> String
+    open func partial(_ file: String, data: [String: Any]) -> String
     {
         var html = ""
         

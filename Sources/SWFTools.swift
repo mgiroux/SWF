@@ -8,14 +8,14 @@
 import Foundation
 import PerfectCURL
 
-public class SWFTools
+open class SWFTools
 {
-    public static func uuid() -> String
+    open static func uuid() -> String
     {
         return UUID().uuidString
     }
     
-    public static func getPID()
+    open static func getPID()
     {
         print(ProcessInfo.processInfo.processIdentifier)
     }
