@@ -22,26 +22,26 @@ public func createInstanceOfController<T>(object:T.Type) -> T where T:SWFInitial
     return obj
 }
 
-open class SWFController: SWFInitializable
+public class SWFController: SWFInitializable
 {
-    open static var server: SWFServer!
-    open weak var response: SWFServerResponse?
-    open let view = SWFView()
+    public static var server: SWFServer!
+    public weak var response: SWFServerResponse?
+    public let view = SWFView()
     
-    open static func setServer(_ server: SWFServer)
+    public static func setServer(_ server: SWFServer)
     {
         SWFController.server = server
     }
     
     public required init() {}
-    open func routes() {}
+    public func routes() {}
     
-    open func server() -> SWFServer
+    public func server() -> SWFServer
     {
         return SWFController.server
     }
     
-    open func setResponse(_ response: SWFServerResponse)
+    public func setResponse(_ response: SWFServerResponse)
     {
         self.response      = response
         self.view.response = response

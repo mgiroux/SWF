@@ -13,17 +13,17 @@ import MongoDBStORM
 public typealias SWFServerResponse = HTTPResponse
 public typealias SWFServerRequest  = HTTPRequest
 
-open class SWFServer
+public class SWFServer
 {
     private let instance = HTTPServer()
-    open let router    = SWFRouter()
-    open var config    = SWFConfig()
-    open let rootPath  = Bundle.main.bundlePath
+    public let router    = SWFRouter()
+    public var config    = SWFConfig()
+    public let rootPath  = Bundle.main.bundlePath
     
-    open static let version = "1.0.0-alpha"
-    open static let name    = "Swift Web Framework"
+    public static let version = "1.0.0-alpha"
+    public static let name    = "Swift Web Framework"
     
-    init()
+    public init()
     {
         // Load configuration
         let configPath = Bundle.main.bundlePath + "/config/config.json"
@@ -68,7 +68,7 @@ open class SWFServer
         }
     }
     
-    open func start()
+    public func start()
     {
         // Add all routes from all controllers
         self.instance.addRoutes(self.router.routes)
