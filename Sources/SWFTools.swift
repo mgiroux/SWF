@@ -8,7 +8,7 @@
 import Foundation
 import PerfectCURL
 
-public class SWFTools
+open class SWFTools
 {
     public static func uuid() -> String
     {

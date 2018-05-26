@@ -9,7 +9,7 @@ import Foundation
 import Stencil
 import PathKit
 
-public class SWFView
+open class SWFView
 {
     public weak var response: SWFServerResponse?
     public let templatePath = Bundle.main.bundlePath

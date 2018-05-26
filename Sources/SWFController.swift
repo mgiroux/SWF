@@ -22,7 +22,7 @@ public func createInstanceOfController<T>(object:T.Type) -> T where T:SWFInitial
     return obj
 }
 
-public class SWFController: SWFInitializable
+open class SWFController: SWFInitializable
 {
     public static var server: SWFServer!
     public weak var response: SWFServerResponse?

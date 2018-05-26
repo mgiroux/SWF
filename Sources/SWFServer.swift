@@ -13,7 +13,7 @@ import MongoDBStORM
 public typealias SWFServerResponse = HTTPResponse
 public typealias SWFServerRequest  = HTTPRequest
 
-public class SWFServer
+open class SWFServer
 {
     private let instance = HTTPServer()
     public let router    = SWFRouter()

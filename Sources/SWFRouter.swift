@@ -19,7 +19,7 @@ public enum SWFWebMethod {
     case patch
 }
 
-public class SWFRouter
+open class SWFRouter
 {
     internal var routes = Routes()
     internal var groups = [String: Routes]()
