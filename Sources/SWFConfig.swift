@@ -9,9 +9,9 @@ import Foundation
 
 public struct SWFConfig: Codable
 {
-    var environment = "development"
-    var development = SWFEnvironmentConfig()
-    var production  = SWFEnvironmentConfig()
+    public var environment = "development"
+    public var development = SWFEnvironmentConfig()
+    public var production  = SWFEnvironmentConfig()
     
     public func env() -> SWFEnvironmentConfig
     {
@@ -25,26 +25,27 @@ public struct SWFConfig: Codable
 
 public struct SWFEnvironmentConfig: Codable
 {
-    var name           = "localhost"
-    var port           = 8181
-    var bind           = "0.0.0.0"
-    var useCompression = false
-    var database       = SWFDatabaseConfig()
-    var security       = SWFSecurityConfig()
+    public var name           = "localhost"
+    public var port           = 8181
+    public var bind           = "0.0.0.0"
+    public var useCompression = false
+    public var database       = SWFDatabaseConfig()
+    public var security       = SWFSecurityConfig()
+    public var custom         = [String: String]()
 }
 
 public struct SWFDatabaseConfig: Codable
 {
-    var host     = ""
-    var database = ""
-    var username = ""
-    var password = ""
-    var port     = 27017
-    var ssl      = false
+    public var host     = ""
+    public var database = ""
+    public var username = ""
+    public var password = ""
+    public var port     = 27017
+    public var ssl      = false
 }
 
 public struct SWFSecurityConfig: Codable
 {
-    var salt          = ""
-    var encryptionKey = ""
+    public var salt          = ""
+    public var encryptionKey = ""
 }
