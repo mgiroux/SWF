@@ -1,0 +1,39 @@
+{
+    "environment": "development",
+    "development": {
+        "bind": "0.0.0.0",
+        "name": "localhost",
+        "port": 8181,
+        "useCompression": true,
+        "database": {
+            "host": "",
+            "database": "",
+            "username": "",
+            "password": "",
+            "port": 27017,
+            "ssl": false
+        },
+        "security": {
+            "salt": "",
+            "encryptionKey": ""
+        }
+    },
+    "production": {
+        "bind": "0.0.0.0",
+        "name": "localhost",
+        "port": 8181,
+        "useCompression": true,
+        "database": {
+            "host": "",
+            "database": "",
+            "username": "",
+            "password": "",
+            "port": 27017,
+            "ssl": false
+        },
+        "security": {
+            "salt": "",
+            "encryptionKey": ""
+        }
+    }
+}
