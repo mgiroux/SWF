@@ -58,7 +58,7 @@ open class SWFRouter
         self.groups[name] = group
     }
         
-    // ------------------------------------ Private methods ------------------------------------ //
+    // MARK: - Private methods
     
     private func getPerfectMethodType(_ method: SWFWebMethod) -> HTTPMethod
     {
