@@ -12,12 +12,20 @@ public typealias SWFWebRequestCallback = (Bool, [String: Any]?) -> ()
 
 public struct SWFCredentials
 {
-    var username = ""
-    var password = ""
+    public var username = ""
+    public var password = ""
+    
+    public init(username: String, password: String)
+    {
+        self.username = username
+        self.password = password
+    }
 }
 
 public class SWFWebRequest
 {
+    public init() {}
+    
     public func jsonRequest(method: SWFWebMethod, url: String, headers: [String: String], data: [String: Any], hasJsonBody: Bool, credentials: SWFCredentials?, callback: @escaping SWFWebRequestCallback)
     {
         let _method = self.getMethodType(method)
@@ -31,9 +39,12 @@ public class SWFWebRequest
         }
         
         if method == .post {
-            let body = self.buildPostData(data)
-            request.messageBody = body.data(using: .utf8)
-            print(body)
+            if hasJsonBody {
+                // Build JSON String
+            } else {
+                let body = self.buildPostData(data)
+                request.messageBody = body.data(using: .utf8)
+            }
         }
         
         request.responseData { (data) in
@@ -59,7 +70,7 @@ public class SWFWebRequest
             
             if value is String {
                 output += key + "="
-                output += value as! String
+                output += (value as! String).addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)!
             } else if value is Bool {
                 let v = ((value as! Bool) == true) ? "true" : "false"
                 output += key + "="
@@ -81,7 +92,57 @@ public class SWFWebRequest
                     output += key + "[]="
                     output += el
                 }
+            } else if value is Array<Int> {
+                let v = value as! [Int]
                 
+                for el in v {
+                    if output != "" {
+                        output += "&"
+                    }
+                    
+                    output += key + "[]="
+                    output += String(el)
+                }
+            } else if value is Array<Double> {
+                let v = value as! [Double]
+                
+                for el in v {
+                    if output != "" {
+                        output += "&"
+                    }
+                    
+                    output += key + "[]="
+                    output += String(el)
+                }
+            } else if value is Array<Bool> {
+                let v = value as! [Bool]
+                
+                for el in v {
+                    if output != "" {
+                        output += "&"
+                    }
+                    
+                    let _v  = (el == true) ? "true" : "false"
+                    output += key + "[]="
+                    output += _v
+                }
+            } else if value is Array<[String: Any]> {
+                let v = value as! [[String: Any]]
+                
+                for dict in v {
+                    let kval  = self.buildPostData(dict)
+                    let parts = kval.components(separatedBy: "&")
+                    
+                    for part in parts {
+                        let subparts = part.components(separatedBy: "=")
+                        
+                        if (output != "" ) {
+                            output += "&"
+                        }
+                        
+                        output += key + "[" + subparts[0] + "]=" + subparts[1]
+                    }
+                }
             } else if value is Dictionary<String, Any> {
                 let dict = value as! [String: Any]
                 let kval = self.buildPostData(dict)
@@ -97,9 +158,11 @@ public class SWFWebRequest
                     
                     output += key + "[" + subparts[0] + "]=" + subparts[1]
                 }
-                
             }
         }
+        
+        // Remove possible double &&
+        output = output.replacingOccurrences(of: "&&", with: "&")
         
         return output
     }
